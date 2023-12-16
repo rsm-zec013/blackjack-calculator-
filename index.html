@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackjack Simulator</title>
+</head>
+<body>
+    <h1>Blackjack Hand Simulator</h1>
+    <form method="POST">
+        <label for="player_card1_value">Player Card 1 Value:</label>
+        <input type="text" name="player_card1_value" required><br>
+
+        <label for="player_card1_suit">Player Card 1 Suit:</label>
+        <input type="text" name="player_card1_suit" required><br>
+
+        <label for="player_card2_value">Player Card 2 Value:</label>
+        <input type="text" name="player_card2_value" required><br>
+
+        <label for="player_card2_suit">Player Card 2 Suit:</label>
+        <input type="text" name="player_card2_suit" required><br>
+
+        <label for="dealer_card_value">Dealer Card Value:</label>
+        <input type="text" name="dealer_card_value" required><br>
+
+        <label for="dealer_card_suit">Dealer Card Suit:</label>
+        <input type="text" name="dealer_card_suit" required><br>
+
+        <label for="action">Action (hit/stand):</label>
+        <input type="text" name="action" required><br>
+
+        <label for="simulations">Number of Simulations:</label>
+        <input type="number" name="simulations" min="1" required><br>
+
+        <input type="submit" value="Simulate">
+    </form>
+</body>
+</html>
